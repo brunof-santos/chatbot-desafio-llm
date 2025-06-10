@@ -30,6 +30,3 @@ if pergunta:
         grafico = gerar_grafico(df)
         if grafico:
             st.plotly_chart(grafico, use_container_width=True)
-
-# OBS: atualmente o banco é mockado.
-# quando eu for conectar ao Athena, precisa adaptar o `executar_query`.
