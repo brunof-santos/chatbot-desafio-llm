@@ -35,7 +35,7 @@ def executar_query(query: str) -> pd.DataFrame:
         status_response = athena_client.get_query_execution(QueryExecutionId=query_execution_id)
         status = status_response['QueryExecution']['Status']['State']
 
-        # Imprimindo status no log (opcional para debug)
+        # Imprimindo status no log do terminal (debug)
         print(f"Status da query: {status}")
 
         # Verificando se terminou com sucesso
