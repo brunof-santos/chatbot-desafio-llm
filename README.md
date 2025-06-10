@@ -167,5 +167,8 @@ Construção de uma interface interativa com Streamlit
 
 Dataset foi tratado para garantir a integridade das análises.
 
+Um vídeo de demonstração do funcionamento está disponível no link a seguir:
+https://youtu.be/M-GvCSXKyXg
+
 Obrigado pela oportunidade!
 Caso tenha qualquer dúvida ou sugestão de melhoria, fico à disposição. 
